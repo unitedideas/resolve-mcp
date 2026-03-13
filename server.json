@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.unitedideas/resolve",
+  "title": "Resolve",
+  "description": "Structured error recovery for AI agents. Returns resolution playbooks (category, backoff schedule, max retries, recovery steps) for 20+ services including OpenAI, Stripe, Postgres, and AWS.",
+  "repository": {
+    "url": "https://github.com/unitedideas/resolve-mcp",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "resolve-error-mcp",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Resolve API key. Get a free key (500 requests/month) by calling the get_free_key tool with your email.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "RESOLVE_API_KEY"
+        }
+      ]
+    }
+  ]
+}

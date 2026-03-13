@@ -1,5 +1,7 @@
 # Resolve MCP Server
 
+<!-- mcp-name: io.github.unitedideas/resolve -->
+
 MCP server for the [Resolve](https://resolve.arflow.io) agent error resolution API. Install it in Claude Code, Claude Desktop, or any MCP client and your agent can look up error resolutions, list supported services, and submit feedback without leaving the tool layer.
 
 ## Tools
@@ -18,7 +20,7 @@ anthropic, aws, cloudflare, discord, docker, gemini, github, huggingface, linear
 ## Quick start
 
 ```bash
-pip install resolve-mcp
+pip install resolve-error-mcp
 ```
 
 Get an API key (free, 500 requests/month):
