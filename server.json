@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.unitedideas/resolve",
   "title": "Resolve",
-  "description": "Structured error recovery for AI agents. Returns resolution playbooks (category, backoff schedule, max retries, recovery steps) for 20+ services including OpenAI, Stripe, Postgres, and AWS.",
+  "description": "Structured error recovery for AI agents. Resolution playbooks for 20+ services.",
   "repository": {
     "url": "https://github.com/unitedideas/resolve-mcp",
     "source": "github"
